@@ -4,9 +4,9 @@ I'm a Computer Science graduate based in Leeds, UK, moving into cybersecurity. I
 
 Now I'm building security tools in Python, studying for my CompTIA Security+, and applying to an MSc in Cybersecurity & Threat Intelligence. Most of my evenings go towards reading up on threats or writing code that does something useful on the defensive side.
 
-**I'm looking for entry-level security roles in the UK** — SOC Analyst, Security Analyst, Vulnerability Analyst. I want to learn from experienced people and contribute real work from day one.
+**I’m looking for an entry-level Governance, Risk & Compliance (GRC) role in the UK.** I’m keen to learn from experienced professionals while delivering practical value immediately—helping maintain policies and standards, supporting risk and control reviews, collecting compliance evidence, and improving documentation and reporting that strengthens security outcomes.
 
-If you're hiring, mentoring, or just want to chat about security — reach out.
+If you're hiring or mentoring — kindly reach out.
 
 [![Email Me](https://img.shields.io/badge/-chiomairoka@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:chiomairoka@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com)
