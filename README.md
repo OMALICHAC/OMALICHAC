@@ -1,115 +1,88 @@
-<div align="center">
+## Hey, I'm Chioma
 
-# Hi, I'm Chioma Iroka
+I'm a Computer Science graduate based in Leeds, UK, moving into cybersecurity. I spent five years as a Transaction Officer at GTBank in Lagos, one of West Africa's biggest banks. The job was supposed to be about processing transactions, but what stuck with me were the fraud cases. I kept seeing the same patterns — social engineering that worked on smart people, access controls that broke down when staff got comfortable, suspicious activity that slipped through because nobody was looking closely enough. After a while I stopped wanting to just flag those things and started wanting to be the person who actually stops them.
 
-### Cybersecurity Enthusiast | Aspiring Security Analyst | Computer Science Graduate
+Now I'm building security tools in Python, studying for my CompTIA Security+, and applying to an MSc in Cybersecurity & Threat Intelligence. Most of my evenings go towards reading up on threats or writing code that does something useful on the defensive side.
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chiomairoka@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OMALICHAC)
+**I'm looking for entry-level security roles in the UK** — SOC Analyst, Security Analyst, Vulnerability Analyst. I want to learn from experienced people and contribute real work from day one.
 
----
+If you're hiring, mentoring, or just want to chat about security — reach out.
 
-**I'm actively seeking entry-level cybersecurity roles**
-SOC Analyst | Security Analyst | Vulnerability Analyst | IT Security
-
-</div>
+[![Email Me](https://img.shields.io/badge/-chiomairoka@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:chiomairoka@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com)
 
 ---
 
-## About Me
+### What's on My Mind
 
-I'm a **Computer Science graduate** based in **Leeds, UK**, transitioning into cybersecurity with a strong foundation in network security, vulnerability assessment, and defensive operations. I'm applying to an **MSc in Cybersecurity and Threat Intelligence** to deepen my expertise in digital forensics and security operations.
+AI has changed cybersecurity in a big way, and not all of it is good. AI-generated phishing emails now have a 54% click-through rate versus 12% for the old-school ones. Polymorphic malware reshapes itself every 15 seconds. Deepfake-as-a-Service is an actual product you can buy in 2025.
 
-My background includes 5 years at **Guaranty Trust Bank (GTBank)** where I identified and escalated suspicious activity, maintained strict data protection protocols, and worked with secure IT systems and access controls daily. This gave me a real-world understanding of how security policies work in practice — and now I'm building the technical skills to defend against the threats I witnessed firsthand.
+That said, I think the defence side has the stronger hand. Organisations using AI in their security operations are cutting breach costs by $1.9 million on average (IBM, 2025). Behavioural analytics, automated threat hunting, AI-assisted SIEM/SOAR — these tools are already working. The attackers have speed, but defenders have context, and context is harder to fake.
 
-```
-What I bring to a team:
-+ Banking industry experience with security awareness
-+ Hands-on vulnerability assessment skills
-+ Network analysis and packet inspection capability
-+ A builder's mindset — I don't just study tools, I create them
-```
+I think about this a lot: we need to adopt AI for defence faster and more deliberately than attackers are adopting it for offence. That's what keeps me motivated.
+
+I've also been paying attention to the security side of "vibe coding" — people building full applications with AI tools without really understanding what's happening under the hood. The thing about security is that it's not just about what you build. It's about what you *think about* while you're building it. A developer with training thinks about authentication, input validation, session management, and a dozen other things that never show up in a feature request. An AI generating code from a prompt doesn't worry about those things on its own, and the person using it might not know to check. AI code review tools are getting better at catching these gaps, which is encouraging — but someone still needs to know which questions to ask.
 
 ---
 
-## Currently Looking For
+### What I've Built
 
-<div align="center">
+I built these because I wanted working tools, not just coursework. They're documented well enough that anyone can pick them up and understand what's going on.
 
-| I'm looking for... | Where | Status |
-|:-:|:-:|:-:|
-| **SOC Analyst** (L1/L2) | UK (Leeds preferred, open to remote) | Actively Applying |
-| **Security Analyst** | UK-wide | Actively Applying |
-| **Vulnerability Analyst** | UK / Remote | Actively Applying |
-| **IT Security Analyst** | UK-wide | Actively Applying |
-| **GRC / Compliance Analyst** | UK-wide | Open To |
+**[VulnScout — Network Vulnerability Scanner](https://github.com/OMALICHAC/VulnScout-Network-Vulnerability-Scanner)**
+Scans networks for open ports, identifies services through banner grabbing, looks up known CVEs from the NIST National Vulnerability Database, and generates HTML reports you could actually hand to a client.
 
-</div>
+`Python` `TCP Scanning` `Banner Grabbing` `NIST NVD API` `CVE Lookup` `Report Generation`
 
-> If you're hiring or know someone who is, I'd love to connect — [chiomairoka@gmail.com](mailto:chiomairoka@gmail.com)
+**[PhishGuard — Phishing Email & URL Analyzer](https://github.com/OMALICHAC/PhishGuard-Phishing-Email-URL-Analyzer)**
+Runs 22 checks on emails and URLs — typosquatting detection, SPF/DKIM validation, mismatched link detection, urgency language scoring, and more. Pulls threat data from URLhaus. Every finding comes with a plain-English explanation of *why* it's flagged.
 
----
+`Python` `Phishing Detection` `Threat Intelligence` `Email Forensics` `URLhaus API` `Risk Scoring`
 
-## Security Projects
+**[Network Simulation — Cisco Packet Tracer](https://github.com/OMALICHAC/Cisco-packet-tracer)**
+Network topologies with routers, switches, VLANs, and security configurations. The kind of hands-on work that makes Wireshark output actually make sense.
 
-### [VulnScout — Network Vulnerability Scanner](https://github.com/OMALICHAC/VulnScout-Network-Vulnerability-Scanner)
-A Python-based network vulnerability scanner that discovers open ports, identifies running services via banner grabbing, looks up known CVEs from the NIST National Vulnerability Database, and generates professional HTML reports.
+`Cisco` `VLANs` `Routing & Switching` `Network Architecture`
 
-`Python` `Network Security` `Vulnerability Assessment` `CVE Lookup` `NIST NVD API` `TCP Scanning`
+**[Wireshark Traffic Analysis](https://github.com/OMALICHAC/Wireshark-project)** | **[DNS Lookup Analysis](https://github.com/OMALICHAC/DNS-Lookup-analysis)**
+Packet captures, protocol analysis, traffic filtering, anomaly detection — the bread and butter of SOC work, practiced on real traffic.
 
-### [PhishGuard — Phishing Email & URL Analyzer](https://github.com/OMALICHAC/PhishGuard-Phishing-Email-URL-Analyzer)
-A phishing detection tool that analyzes emails and URLs using 22 distinct checks (12 URL + 10 email), integrates with threat intelligence feeds (URLhaus), and produces risk-scored analysis with detailed explanations of each phishing technique.
-
-`Python` `Phishing Detection` `Threat Intelligence` `Email Analysis` `URLhaus API` `SOC Skills`
-
-### [Network Simulation — Cisco Packet Tracer](https://github.com/OMALICHAC/Cisco-packet-tracer)
-Designed and configured network topologies including routers, switches, VLANs, and security settings using Cisco Packet Tracer. Documented configurations and analyzed network behaviors.
-
-`Cisco` `Networking` `VLANs` `Routing` `Switching` `Network Design`
-
-### [Wireshark Network Analysis](https://github.com/OMALICHAC/Wireshark-project)
-Captured and analyzed network traffic using Wireshark. Practiced filtering traffic, identifying protocols, and detecting anomalies — core skills for any SOC analyst.
-
-`Wireshark` `Packet Analysis` `Network Forensics` `Protocol Analysis`
-
-### [DNS Lookup Analysis](https://github.com/OMALICHAC/DNS-Lookup-analysis)
-Wireshark exercises focused on collecting, sifting, and examining network traffic in detail with emphasis on DNS analysis.
-
-`DNS` `Wireshark` `Network Analysis` `Traffic Inspection`
+`Wireshark` `Packet Analysis` `DNS` `Protocol Analysis` `Network Forensics`
 
 ---
 
-## Skills & Tools
+### My Toolbox
 
 <div align="center">
 
-### Security Tools
+**Security & Analysis**
+
 ![Nessus](https://img.shields.io/badge/-Nessus-00C176?style=flat-square&logo=tenable&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Cisco Packet Tracer](https://img.shields.io/badge/-Cisco%20Packet%20Tracer-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
+![Cisco](https://img.shields.io/badge/-Cisco%20Packet%20Tracer-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 
-### Programming & Scripting
+**Languages & Scripting**
+
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 
-### Networking & Systems
+**Networking**
+
 ![TCP/IP](https://img.shields.io/badge/-TCP%2FIP-005571?style=flat-square)
 ![DNS](https://img.shields.io/badge/-DNS-4285F4?style=flat-square)
 ![VLANs](https://img.shields.io/badge/-VLANs-FF6F00?style=flat-square)
 ![Firewalls](https://img.shields.io/badge/-Firewalls-D32F2F?style=flat-square)
-![VPN](https://img.shields.io/badge/-VPN-6A1B9A?style=flat-square)
-![Active Directory](https://img.shields.io/badge/-Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 
-### Security Domains
+**Security Focus Areas**
+
 ![Vulnerability Assessment](https://img.shields.io/badge/-Vulnerability%20Assessment-E53935?style=flat-square)
 ![Threat Detection](https://img.shields.io/badge/-Threat%20Detection-FF6F00?style=flat-square)
 ![Phishing Analysis](https://img.shields.io/badge/-Phishing%20Analysis-6A1B9A?style=flat-square)
-![Network Security](https://img.shields.io/badge/-Network%20Security-1565C0?style=flat-square)
+![AI in Security](https://img.shields.io/badge/-AI%20in%20Security-0D47A1?style=flat-square)
 ![Incident Response](https://img.shields.io/badge/-Incident%20Response-2E7D32?style=flat-square)
-![System Hardening](https://img.shields.io/badge/-System%20Hardening-37474F?style=flat-square)
 
-### Platforms
+**Platforms**
+
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -118,40 +91,38 @@ Wireshark exercises focused on collecting, sifting, and examining network traffi
 
 ---
 
-## Education
+### Where I've Been
 
-| Degree | Institution | Focus |
-|--------|-------------|-------|
-| **BSc Computer Science** | University | Networking, Security Fundamentals, Programming |
-| **MSc Cybersecurity & Threat Intelligence** *(Applying)* | — | Digital Forensics, Security Operations, Threat Analysis |
+**Transaction Officer** — Guaranty Trust Bank (GTBank), Lagos *(2019–2024)*
 
----
+Five years at one of West Africa's biggest banks. I processed thousands of client transactions, but the part that shaped me was the fraud. I watched social engineering work on careful, intelligent people. I saw how access controls fail when staff get comfortable. I escalated suspicious activity, worked with authenticated systems daily, and handled sensitive data under strict confidentiality requirements.
 
-## Professional Experience
+What banking taught me is that security comes down to people — their habits, their blind spots, and whether the systems around them are good enough to catch what they miss.
 
-**Transaction Officer** — Guaranty Trust Bank (GTBank), Lagos, Nigeria *(2019–2024)*
+**BSc Computer Science** — Networking, programming, and security fundamentals.
 
-- Identified and escalated suspicious activity in line with security protocols
-- Maintained strict confidentiality and data protection during all operations
-- Worked with secure internal IT systems, user authentication processes, and controlled access policies
-- Processed client transactions with accuracy and regulatory compliance
-
-> This banking experience gave me firsthand exposure to the human side of security — social engineering awareness, access control in practice, and why security policies matter.
+**MSc Cybersecurity & Threat Intelligence** — Currently applying. Focus areas: digital forensics, security operations, threat analysis.
 
 ---
 
-## Certifications & Learning Path
+### What I'm Working On Now
 
-| Certification | Status |
-|---------------|--------|
-| **Nessus Essentials** — Vulnerability Scanning | Hands-on experience |
-| **Wireshark** — Packet Analysis | Hands-on experience |
-| **Cisco Packet Tracer** — Network Simulation | Hands-on experience |
-| **CompTIA Security+** | Studying |
+- Studying for **CompTIA Security+**
+- Mapping detection rules to real techniques using the **MITRE ATT&CK** framework
+- Learning **Splunk** for SIEM log analysis
+- Writing about **AI in cybersecurity** — where it helps defenders and where it creates new risks
+- Building more security tools and contributing to open-source projects
 
 ---
 
-## GitHub Stats
+### Reading List / Things I Keep Coming Back To
+
+- How SOAR platforms are changing what a SOC analyst's day actually looks like
+- The UK's cybersecurity skills gap (143,000 workforce, still thousands of unfilled roles)
+- Whether "vibe coding" without security awareness is creating a new attack surface
+- The NIST AI Risk Management Framework and what AI governance looks like in practice
+
+---
 
 <div align="center">
 
@@ -159,22 +130,9 @@ Wireshark exercises focused on collecting, sifting, and examining network traffi
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OMALICHAC&layout=compact&theme=tokyonight&hide_border=true)
 
-</div>
-
 ---
 
-<div align="center">
-
-### Let's Connect
-
-I'm passionate about building a career in cybersecurity and eager to contribute to a security team.
-If you're hiring, mentoring, or just want to talk security — I'd love to hear from you.
-
-**chiomairoka@gmail.com**
-
----
-
-*"The best way to learn security is to build security tools."*
+*I don't just want to work in cybersecurity. I want to understand the threats well enough to build the tools that stop them.*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=OMALICHAC&color=blue&style=flat-square&label=Profile+Views)
 
